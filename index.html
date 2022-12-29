@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil project</title>
+    <link rel="stylesheet" href="/flipcart_project/css/style.css">
+    <link rel="stylesheet" href="/flipcart_project/css/utils.css">
+    <style>
+          @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');  
+*{
+    margin: 0;
+    padding: 0; 
+}
+:root {
+    --main-bg-color:  #4f8df0;
+  }
+  body header{
+    top: 0%;
+  }
+header{
+    position: fixed;
+    
+    display:    inline;
+    margin-top: 0vh;
+     width: 100%;
+
+    display: flex;
+    height: 9vh;
+     background-color: var(--main-bg-color);
+    justify-content:  first baseline;
+    align-items: center;
+    border: red groove;
+  
+}
+.logo img {
+    width: 114px;
+    height: 40.517px;
+    padding: 0 25px;
+    width: 119px;
+}
+nav{
+    display: flex;
+    /* align-items: center;
+    justify-content:  center; */
+
+}
+nav :hover {
+    color: black;
+    font-weight: bold;
+  }
+.logo img  {
+ width: 114px;
+ height: 29.517px;
+ padding: 0 25px;
+width: 88px;
+ }
+   
+.logo{
+     
+    /* align-items: center; */
+    /* width: 114px;
+    height: 29.517px;     */
+ }
+nav ul {
+    display:   flex;
+    justify-content: center;
+    
+
+}
+nav ul li { 
+    list-style: none;
+    color: rgb(255, 255, 255);
+    
+}
+nav ul li a { 
+     color: aliceblue; 
+     text-decoration: none;
+     padding: 3vw;
+
+  }
+  .contact {
+    position: relative;
+       height: 2.5vw;
+      width: 9vw;
+       color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+margin-left: 23px;
+    width: 5vw;
+ color:  aliceblue;
+ border-radius: 5px  ;
+ cursor: pointer;
+  
+     /* border: red groove; */
+    animation: widthAnimate .5s  ease-in-out 2s 5  alternate;
+ }
+
+
+@keyframes widthAnimate {
+
+    0%{
+        /* transform-origin: 0%; */
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+     }
+    100%{
+        transform: rotate(360deg);
+     }
+}
+  
+  .contact contact{
+    margin: auto;
+    background-color: black;
+    color: rgb(0, 0, 0);
+  }
+  .contact contact:hover{
+     color: rgb(255, 255, 255);
+  }
+  .searchbox{
+    display: flex;
+     
+  }
+  .searchbox input {
+    height: 4vh;
+    width: 30vw;
+    border: 2px rgb(0, 0, 0) groove ;
+    border-radius: 2px;
+    margin-left: 45px;
+    padding: 1vh;
+    
+  }
+
+
+/* Element | http://127.0.0.1:5500/flipcart_project/index.html */
+
+
+/* Element | http://127.0.0.1:5500/flipcart_project/index.html */
+
+body > header:nth-child(1) > p:nth-child(2) > img:nth-child(1) {
+    margin-left: -62px;
+    border-top-width: 0px;
+    border-top-style: solid;
+    width: 29px;
+    padding-left: 28px;
+    height: 28px;
+  }
+  
+.btn{
+    
+    margin-left: 23px;
+    width: 5vw;
+height: 2.5vw;
+background: black;
+color:  aliceblue;
+ border-radius: 5px;
+ cursor: pointer;
+}  
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight:  var(--main-bg-color);
+    border:  rgb(255, 0, 0) 6px;
+}
+  
+  main{
+    margin-top: 15vh;
+     font-family: 'Open Sans', sans-serif;
+
+  }
+  .container{
+    min-height: 78vh;
+  }
+  .slider{
+    display:  flex;
+    margin-left: 18vw;
+ padding-left: 0px;
+margin-top: 9px;
+border-top-width: 2px;
+ border-color: deeppink;
+   }
+   .cards{
+    /* display: flex; */
+    margin: auto;
+     max-width: 91vw;
+    margin-top: 15vh;
+     margin: auto;
+    max-width: 91vw;
+    margin-top: 15vh;
+    
+   }
+    
+   .card-iteams {
+    margin-top: 12px;  
+      /* padding: 4vw; ; */
+    display:      flex;
+    align-items: center;
+    justify-items: center;
+    justify-content:  space-around;
+
+   }
+
+footer{
+    display: flex;
+    height: 10vh;
+    margin-top: 5vh;
+     background-color:  var(--main-bg-color);
+    color: aliceblue;
+    justify-content:  space-around;
+    align-items:  center;
+    font-family: 'Open Sans', sans-serif;
+    border: red groove;
+
+     
+
+}
+.email{
+    color: white;
+}
+
+ 
+/* Element | http://127.0.0.1:5500/flipcart_project/index.html */
+
+.slider > img:nth-child(1) {
+    margin-right: 0px;
+    padding-left: 0px;
+    /* margin-left: 10vw; */
+  }
+  .logo img {
+    width: 114px;
+    height: 38.517px;
+    padding: 0 25px;
+    width: 104px;
+}
+  
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="data:image/png;base64,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" alt=" " height="50vw">
+            </div>
+            <ul>
+                <li><a href="home.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li>
+                    
+                    <form> <select class="contact"
+                            onChange="window.open(this.options[this.selectedIndex].value,'_blank')">
+                            <option value="https://wa.link/kk38x6">Contact</option>
+                            <option value="https://www.linkedin.com/in/nikhil-bhise-91985b1b2">linkedin</option>
+                            <option value="https://instagram.com/bhise_nikhil_93?igshid=YmMyMTA2M2Y=">insta</option>
+                        </select> 
+                    </form>
+                </li>
+            </ul>
+            <div class="searchbox">
+                <input type="text" placeholder="search here">
+            </div>
+        </nav>
+        <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUeVtFLeTirvcIpf6Yj3dwSMUBUjopax6CVQ&usqp=CAU" alt=""></p>
+        <button class="btn">Search</button>
+
+    </header>
+    <main>
+        <div class="container">
+            <div class="slider">
+                <img src="https://source.unsplash.com/1000x300/?travelling" alt="shopping image">
+            </div>
+            <h1
+            style="
+    height: 74.333;
+    margin-left: 50px;
+     margin-top: 47px;
+    height: 68.333;
+     color: rgb(255, 0, 0);
+     padding-bottom: -50px;
+" 
+            
+            >Fun facts...!</h1>
+            <div class="cards"
+            style="
+            margin-top: 32px;"
+            >
+                <h2> play with physics</h2>
+                <div class="card-iteams">
+                    <div>
+                        <img src="https://source.unsplash.com/160x160/?steel" alt="cricket image">
+
+                        <div class="lines">
+                            <p>Steel is more elastic</p>
+                             <p>than rubber..!</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://source.unsplash.com/160x161/?gravity" alt="cricket image">
+
+                        <div class="lines">
+                            <p> Gyroscopic effects keeps</p>
+                            <p>  a bike balanced..! </p>
+                         </div>
+                    </div>
+
+                    <div>
+                        <img src="https://source.unsplash.com/161x160/?blackhole" alt="cricket image">
+
+                        <div class="lines">
+                            <p> Time freezes inside </p>
+                            <p> the  black hole..! </p>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://source.unsplash.com/161x161/?space" alt="cricket image">
+
+                        <div class="lines">
+                            <p> we age slowly in</p>
+                             <p>  space..!</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://source.unsplash.com/162x161/?clock" alt="cricket image">
+
+                        <div class="lines">
+                            <p>A clocks on jupiter runs </p>
+                            <p>  slower than earth..! </p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <h2> play with chemistry</h2>
+                <div class="card-iteams">
+                    <div>
+                        <img src="https://source.unsplash.com/160x160/?helium" alt="cricket image">
+
+                        <div class="lines">
+                            <p>Superfluid helium </p>
+                            <p>defies gravity and </p>
+                            <p> climbs on wall..!</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://source.unsplash.com/160x161/?snow" alt="cricket image">
+
+                        <div class="lines">
+                            <p> One inches of rain </p>
+                            <p>is equal to 10  </p>
+                            <p> inches of snow..!</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="https://source.unsplash.com/161x160/?co2" alt="cricket image">
+
+                        <div class="lines">
+                            <p> When carbon dioxide or  </p>
+                            <p> CO2 is in solid form, </p>
+                            <p>  known as dry ice..!</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://source.unsplash.com/161x161/?periodicTable" alt="cricket image">
+
+                        <div class="lines">
+                            <p>J is the only letter  </p>
+                            <p> that is not present in </p>
+                            <p> the periodic table..!</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://source.unsplash.com/162x161/?chemistry" alt="cricket image">
+
+                        <div class="lines">
+                            <p>Many radioactive elements </p>
+                            <p> actually glow in  the</p>
+                            <p>  dark..!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <h2> play with bio-logy </h2>
+                <div class="card-iteams">
+                    <div>
+                        <img src="https://source.unsplash.com/160x160/?skeleton" alt="cricket image">
+
+                        <div class="lines">
+                            <p> A human skeleton renews  </p>
+                            <p>itself completely every</p>
+                            <p> 10 years..!</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://source.unsplash.com/160x161/?eating" alt="cricket image">
+
+                        <div class="lines">
+                            <p> Humans spend about</p>
+                            <p> five years of their </p>
+                            <p>  lives eating...!</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="https://source.unsplash.com/161x160/?eating" alt="cricket image">
+
+                        <div class="lines">
+                            <p>A person will eat  </p>
+                            <p>approximately 35 tons of  </p>
+                            <p> food in a lifetime...!</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://source.unsplash.com/162x161/?ear" alt="cricket image">
+
+                        <div class="lines">
+                            <p>A human’s ears </p>
+                            <p> and nose never  </p>
+                            <p> stop growing...!</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://source.unsplash.com/161x161/?Bones" alt="cricket image">
+
+                        <div class="lines">
+                            <p>In an adult human, 25%  </p>
+                            <p>of their bones are </p>
+                            <p>  in the feet..!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <h2> Fun with Entomology </h2>
+                <div class="card-iteams">
+                    <div>
+                        <img src="https://source.unsplash.com/160x160/?ladybird" alt="cricket image">
+
+                        <div class="lines">
+                            <p>A ladybird might eat </p>
+                            <p> more than 5,000 insects</p>
+                            <p>in its lifetime..!</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://source.unsplash.com/160x161/?dragonflies" alt="cricket image">
+
+                        <div class="lines">
+                            <p>Dragonflies have been </p>
+                            <p>on earth for 300</p>
+                            <p> million years..!</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="https://source.unsplash.com/161x160/?insect" alt="cricket image">
+
+                        <div class="lines">
+                            <p> Insects do not have</p>
+                            <p> bone like us..!</p>
+                            <p> </p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://source.unsplash.com/162x161/?bees" alt="cricket image">
+
+                        <div class="lines">
+                            <p> Bees have smelly</p>
+                             <p> feet..!</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://source.unsplash.com/161x161/?Mosquito" alt="cricket image">
+
+                        <div class="lines">
+                            <p>Mosquitoes are the </p>
+                            <p> world's deadlist</p>
+                            <p> animal..!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <h2>
+                    Appreciate the work of farmer</h2>
+                <div class="card-iteams">
+                    <div>
+                        <img src="https://source.unsplash.com/160x160/?sheep" alt="cricket image">
+
+                        <div class="lines">
+                            <p>Goats were the first animal  </p>
+                            <p>  to be domesticated ..!</p>
+                         </div>
+                    </div>
+                    <div>
+                        <img src="https://source.unsplash.com/160x160/?apple" alt="cricket image">
+
+                        <div class="lines">
+                            <p> More than 6000 varieties</p>
+                            <p>  of apple are grown around</p>
+                            <p> the worod..!</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="https://source.unsplash.com/160x160/?football" alt="cricket image">
+
+                        <div class="lines">
+                            <p>An acre of land is  </p>
+                            <p> about the same size</p>
+                            <p>  as a football field..!</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://source.unsplash.com/160x160/?farm" alt="cricket image">
+
+                        <div class="lines">
+                            <p>India holds the first </p>
+                            <p>position in organic </p>
+                            <p>  farming..!</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://source.unsplash.com/160x160/?agriculture" alt="cricket image">
+
+                        <div class="lines">
+                            <p>Globally, 70% of farm</p>
+                            <p> operators are women..!  </p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </main>
+    <footer class="flex-all-centre">
+
+        <p>copyright &copy; all rights are reserved</p>
+        <a href="https://wa.link/kk38x6"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/479px-WhatsApp.svg.png" alt="whatsapp logo" width="50px"></a>
+        <a href="https://instagram.com/bhise_nikhil_93?igshid=YmMyMTA2M2Y=" target="_blank"><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnXbrslu0xSmu2srJnz9g7M9ZFQqOUcmD__Q&usqp=CAU" alt="insta logo" width="40px"></a>
+        <a href="https://www.linkedin.com/in/nikhil-bhise-91985b1b2" target="_blank"><img
+                src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="linkedin logo" width="40px"></a>
+
+        <a class="email" href="mailto:nikhilbhise2018@gmail.com"> <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThXCHaIbUzvI58QLCHoXfewlZt31qRbXxdug&usqp=CAU" alt="" width="45px"></a>
+        <h3>call:9325867351</h3>
+
+
+
+
+
+    </footer>
+</body>
+
+</html>
